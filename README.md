@@ -105,6 +105,7 @@ let words = toWords.convert(0.572, { currency: true, ignoreZeroCurrency: true })
 | France | French | fr-FR |
 | India | Gujarati | gu-IN |
 | India | Hindi | hi-IN |
+| India | Kannada | kn-IN |
 | India | Marathi | mr-IN |
 
 ## Inspiration for core logic

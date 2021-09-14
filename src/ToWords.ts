@@ -9,6 +9,7 @@ import faIr from './locales/fa-IR';
 import frFr from './locales/fr-FR';
 import guIn from './locales/gu-IN';
 import hiIn from './locales/hi-IN';
+import knIn from './locales/kn-IN';
 import mrIn from './locales/mr-IN';
 
 export const DefaultConverterOptions: ConverterOptions = {
@@ -55,6 +56,8 @@ export class ToWords {
         return guIn;
       case 'hi-IN':
         return hiIn;
+      case 'kn-IN':
+        return knIn;
       case 'mr-IN':
         return mrIn;
     }

@@ -14,6 +14,7 @@ const fa_IR_1 = __importDefault(require("./locales/fa-IR"));
 const fr_FR_1 = __importDefault(require("./locales/fr-FR"));
 const gu_IN_1 = __importDefault(require("./locales/gu-IN"));
 const hi_IN_1 = __importDefault(require("./locales/hi-IN"));
+const kn_IN_1 = __importDefault(require("./locales/kn-IN"));
 const mr_IN_1 = __importDefault(require("./locales/mr-IN"));
 exports.DefaultConverterOptions = {
     currency: false,
@@ -54,6 +55,8 @@ class ToWords {
                 return gu_IN_1.default;
             case 'hi-IN':
                 return hi_IN_1.default;
+            case 'kn-IN':
+                return kn_IN_1.default;
             case 'mr-IN':
                 return mr_IN_1.default;
         }
